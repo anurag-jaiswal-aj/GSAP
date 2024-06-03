@@ -32,6 +32,7 @@ body{
     align-items: center;
     gap: 3vw;
     padding: 0 1.5vw;
+    transform: translateX(-100%);
 }
 
 .marque h1{
