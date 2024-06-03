@@ -37,6 +37,7 @@ body{
 
 .marque h1{
     font-size: 3vw;
+    text-transform: uppercase;
 }
 
 .marque img{
