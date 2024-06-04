@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 section {
     height: 100%;
     width: 100%;
@@ -149,12 +153,13 @@ nav button{
 
 
 .container{
-    height: 115%;
+    min-height: 86vh;
     width: 100%;
     padding: 40px 120px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .elem{
@@ -212,6 +217,3 @@ nav button{
     background-color: black;
 }
 
-.second{
-    background-color: red;
-}
